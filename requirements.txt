@@ -1,0 +1,15 @@
+# requirements.txt
+# Inferred dependencies for `swaggerdoc_for_redshift_tables.py` (non-stdlib)
+# Pinning minimal recommended versions for better compatibility on Windows
+SQLAlchemy>=1.4
+pandas>=1.3
+PyYAML>=6.0
+python-docx>=0.8.11
+psycopg2-binary>=2.9
+pymysql>=1.0
+pyodbc>=4.0
+openpyxl>=3.0
+
+# Notes:
+# - tkinter and getpass are part of the Python standard library and should not be included here.
+# - pyodbc requires an ODBC driver (e.g., Microsoft ODBC Driver for SQL Server) installed on the system.
